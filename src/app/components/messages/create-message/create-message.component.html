@@ -1,0 +1,85 @@
+<section class="container create-message">
+  <header class="header">
+      <h2 class="ff-title">Adicione uma nova mensagem:</h2>
+  </header>
+  <form>
+    <label for="title" class="ff-body">Título:</label>
+    <input
+      type="text"
+      class="input"
+      id="title"
+      name="title"
+      placeholder="Digite um título para a mensagem"
+    />
+    <label for="message" class="ff-body">Mensagem:</label>
+    <input
+      type="textarea"
+      class="input"
+      id="message"
+      name="message"
+      placeholder="Digite a mensagem"
+    />
+    <label for="group" class="ff-body">Selecione o grupo para envio:</label>
+    <div class="container-group">
+      <div class="check-group">
+        <label for="group-name">
+          <input
+            type="checkbox"
+            value="escola"
+            name="toda-escola"
+          >
+          <div class="custom-check">
+            <span></span>
+          </div>
+          <span class="ff-body">Toda a escola</span>
+        </label>
+      </div>
+
+      <div class="check-group">
+        <label for="group-name">
+          <input
+            type="checkbox"
+            value="infantil"
+            name="infantil"
+          >
+          <div class="custom-check">
+            <span></span>
+          </div>
+          <span class="ff-body">Educação Infantil</span>
+        </label>
+      </div>
+
+      <div class="check-group">
+        <label for="group-name">
+          <input
+            type="checkbox"
+            value="fundamental1"
+            name="fundamental1"
+          >
+          <div class="custom-check">
+            <span></span>
+          </div>
+          <span class="ff-body">Fundamental I</span>
+        </label>
+      </div>
+      <div class="check-group">
+        <label for="group-name">
+          <input
+            type="checkbox"
+            value="fundamental2"
+            name="fundamental2"
+          >
+          <div class="custom-check">
+            <span></span>
+          </div>
+          <span class="ff-body">Fundamental II</span>
+        </label>
+      </div>
+    </div>
+
+    <div class="actions">
+      <button class="button">Salvar</button>
+      <button class="button">Cancelar</button>
+    </div>
+  </form>
+</section>

@@ -1,0 +1,13 @@
+.banner {
+  background: url(/assets/images/banner-header.jpg);
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.banner h1 {
+  font-size: 6rem;
+  color: white;
+  font-family: 'Lucida Sans', sans-serif;
+}
